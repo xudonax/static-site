@@ -176,3 +176,16 @@ h3 {
         text-align: center;
     }
 }
+
+.pure-menu-link::before {
+    content: "» ";
+}
+
+.pure-menu-link {
+    color: #fff;
+    text-align: right;
+}
+
+.pure-menu-active > .pure-menu-link, .pure-menu-link:focus, .pure-menu-link:hover {
+    background-color: rgb( 	111, 131, 161);
+}
